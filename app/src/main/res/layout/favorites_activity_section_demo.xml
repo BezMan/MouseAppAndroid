@@ -23,7 +23,7 @@
                 android:orientation="vertical">
 
 
-                <com.comrax.mouseappandroid.helpers.AmazingListView
+                <com.mouse.world.helpers.AmazingListView
                     android:id="@+id/lsComposer"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"

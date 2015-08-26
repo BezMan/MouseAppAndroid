@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.activities_N_fragments;
+package com.mouse.world.activities_N_fragments;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -20,13 +20,13 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.comrax.mouseappandroid.R;
-import com.comrax.mouseappandroid.adapters.CitiesAdapter;
-import com.comrax.mouseappandroid.app.GlobalVars;
-import com.comrax.mouseappandroid.app.HelperMethods;
-import com.comrax.mouseappandroid.database.DBConstants;
-import com.comrax.mouseappandroid.model.BannersModel;
-import com.comrax.mouseappandroid.model.CitiesModel;
+import com.mouse.world.R;
+import com.mouse.world.adapters.CitiesAdapter;
+import com.mouse.world.app.GlobalVars;
+import com.mouse.world.app.HelperMethods;
+import com.mouse.world.database.DBConstants;
+import com.mouse.world.model.BannersModel;
+import com.mouse.world.model.CitiesModel;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.adapters;
+package com.mouse.world.adapters;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,8 +11,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.comrax.mouseappandroid.R;
-import com.comrax.mouseappandroid.app.App;
+import com.mouse.world.R;
+import com.mouse.world.app.App;
 
 import org.json.JSONArray;
 import org.json.JSONException;

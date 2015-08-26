@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.helpers;
+package com.mouse.world.helpers;
 
 import android.view.*;
 import android.widget.*;

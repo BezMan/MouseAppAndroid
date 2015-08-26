@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.http;
+package com.mouse.world.http;
 
 public interface RequestTaskDelegate {
     void onTaskPOSTCompleted(String result, RequestTask task);

@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.adapters;
+package com.mouse.world.adapters;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,8 +10,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.comrax.mouseappandroid.R;
-import com.comrax.mouseappandroid.model.DrawerModel;
+import com.mouse.world.R;
+import com.mouse.world.model.DrawerModel;
 
 import java.util.ArrayList;
 
@@ -78,7 +78,7 @@ public class CustomGlobalNavDrawerAdapter extends BaseAdapter {
 
         /************  Set Model values in Holder elements ***********/
         holder.textView.setText(tempValues.getBtnTitle());
-        holder.imageViewIcon.setImageResource(_resources.getIdentifier("com.comrax.mouseappandroid:drawable/" + tempValues.getBtnImage(), null, null));
+        holder.imageViewIcon.setImageResource(_resources.getIdentifier("com.mouse.world:drawable/" + tempValues.getBtnImage(), null, null));
 
 //        /******** Set Item Click Listner for LayoutInflater for each row ***********/
         if(position<7)

@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.model;
+package com.mouse.world.model;
 
 /**
  * Created by betzalel on 30/03/2015.

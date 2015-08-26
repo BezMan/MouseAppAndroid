@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.activities_N_fragments;
+package com.mouse.world.activities_N_fragments;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -13,10 +13,10 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.widget.Toast;
 
-import com.comrax.mouseappandroid.R;
-import com.comrax.mouseappandroid.app.GlobalVars;
-import com.comrax.mouseappandroid.app.HelperMethods;
-import com.comrax.mouseappandroid.model.InitDataModel;
+import com.mouse.world.R;
+import com.mouse.world.app.GlobalVars;
+import com.mouse.world.app.HelperMethods;
+import com.mouse.world.model.InitDataModel;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;

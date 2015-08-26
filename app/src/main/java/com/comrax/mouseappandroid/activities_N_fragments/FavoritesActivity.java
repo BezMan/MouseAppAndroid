@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.activities_N_fragments;
+package com.mouse.world.activities_N_fragments;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -11,13 +11,13 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.comrax.mouseappandroid.R;
-import com.comrax.mouseappandroid.app.App;
-import com.comrax.mouseappandroid.app.GlobalVars;
-import com.comrax.mouseappandroid.database.DBConstants;
-import com.comrax.mouseappandroid.helpers.AmazingAdapter;
-import com.comrax.mouseappandroid.helpers.AmazingListView;
-import com.comrax.mouseappandroid.model.FavoritesModel;
+import com.mouse.world.R;
+import com.mouse.world.app.App;
+import com.mouse.world.app.GlobalVars;
+import com.mouse.world.database.DBConstants;
+import com.mouse.world.helpers.AmazingAdapter;
+import com.mouse.world.helpers.AmazingListView;
+import com.mouse.world.model.FavoritesModel;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.adapters;
+package com.mouse.world.adapters;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,10 +12,10 @@ import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
-import com.comrax.mouseappandroid.app.App;
-import com.comrax.mouseappandroid.R;
-import com.comrax.mouseappandroid.activities_N_fragments.Open_Details_header_N_list;
-import com.comrax.mouseappandroid.model.ListModel;
+import com.mouse.world.app.App;
+import com.mouse.world.R;
+import com.mouse.world.activities_N_fragments.Open_Details_header_N_list;
+import com.mouse.world.model.ListModel;
 
 import java.util.ArrayList;
 
@@ -120,7 +120,7 @@ public class OpenDetailsCustomAdapter extends BaseAdapter {
         String coinNum = String.valueOf(tempValues.getPrice());
         holder.textPrice.setText(getHebrewTextPrice(coinNum));
         if(coinNum == "0") coinNum = "1";
-        holder.imagePrice.setImageResource(_resources.getIdentifier("com.comrax.mouseappandroid:drawable/" + "coin_" + coinNum, null, null));
+        holder.imagePrice.setImageResource(_resources.getIdentifier("com.mouse.world:drawable/" + "coin_" + coinNum, null, null));
 
 
         holder.distance.setText(String.valueOf(tempValues.getDistance()));

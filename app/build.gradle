@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.comrax.mouseappandroid"
+        applicationId "com.mouse.world"
         minSdkVersion 15
         targetSdkVersion 21
         versionCode 1

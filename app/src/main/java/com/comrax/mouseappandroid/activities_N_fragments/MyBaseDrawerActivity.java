@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.activities_N_fragments;
+package com.mouse.world.activities_N_fragments;
 
 import android.content.Context;
 import android.content.Intent;
@@ -22,13 +22,13 @@ import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.comrax.mouseappandroid.R;
-import com.comrax.mouseappandroid.adapters.CustomGlobalNavDrawerAdapter;
-import com.comrax.mouseappandroid.app.App;
-import com.comrax.mouseappandroid.app.GlobalVars;
-import com.comrax.mouseappandroid.database.DBConstants;
-import com.comrax.mouseappandroid.database.DBTools;
-import com.comrax.mouseappandroid.model.DrawerModel;
+import com.mouse.world.R;
+import com.mouse.world.adapters.CustomGlobalNavDrawerAdapter;
+import com.mouse.world.app.App;
+import com.mouse.world.app.GlobalVars;
+import com.mouse.world.database.DBConstants;
+import com.mouse.world.database.DBTools;
+import com.mouse.world.model.DrawerModel;
 
 import org.json.JSONException;
 import org.json.JSONObject;

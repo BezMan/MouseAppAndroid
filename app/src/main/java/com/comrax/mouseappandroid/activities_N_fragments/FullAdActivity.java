@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.activities_N_fragments;
+package com.mouse.world.activities_N_fragments;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import com.comrax.mouseappandroid.R;
-import com.comrax.mouseappandroid.app.GlobalVars;
+import com.mouse.world.R;
+import com.mouse.world.app.GlobalVars;
 
 public class FullAdActivity extends AppCompatActivity {
 
@@ -23,7 +23,7 @@ public class FullAdActivity extends AppCompatActivity {
         final int position = getIntent().getIntExtra("adNum", -1);
 
         RelativeLayout layout = (RelativeLayout) findViewById(R.id.ad_background_layout);
-        layout.setBackgroundResource(getResources().getIdentifier("com.comrax.mouseappandroid:drawable/" + "ad_" + (position + 1), null, null));
+        layout.setBackgroundResource(getResources().getIdentifier("com.mouse.world:drawable/" + "ad_" + (position + 1), null, null));
 
         layout.setOnClickListener(new View.OnClickListener() {
             @Override

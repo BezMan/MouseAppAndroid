@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.database;
+package com.mouse.world.database;
 
 public class DBConstants {
 

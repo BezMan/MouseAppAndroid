@@ -1,8 +1,8 @@
-package com.comrax.mouseappandroid.model;
+package com.mouse.world.model;
 
 import android.database.Cursor;
 
-import com.comrax.mouseappandroid.database.DBConstants;
+import com.mouse.world.database.DBConstants;
 
 public class FavoritesModel {
 

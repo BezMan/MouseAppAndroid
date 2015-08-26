@@ -1,9 +1,9 @@
-package com.comrax.mouseappandroid.app;
+package com.mouse.world.app;
 
 import android.content.Context;
 
-import com.comrax.mouseappandroid.model.BannersModel;
-import com.comrax.mouseappandroid.model.InitDataModel;
+import com.mouse.world.model.BannersModel;
+import com.mouse.world.model.InitDataModel;
 
 import org.json.JSONArray;
 

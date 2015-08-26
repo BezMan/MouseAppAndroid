@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.activities_N_fragments;
+package com.mouse.world.activities_N_fragments;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -23,9 +23,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.comrax.mouseappandroid.R;
-import com.comrax.mouseappandroid.app.GlobalVars;
-import com.comrax.mouseappandroid.database.DBConstants;
+import com.mouse.world.R;
+import com.mouse.world.app.GlobalVars;
+import com.mouse.world.database.DBConstants;
 
 import org.json.JSONArray;
 import org.json.JSONException;

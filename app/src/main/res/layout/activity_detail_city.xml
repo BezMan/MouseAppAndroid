@@ -26,7 +26,7 @@
                 android:orientation="vertical">
 
 
-                <com.comrax.mouseappandroid.helpers.AnimatedExpandableListView
+                <com.mouse.world.helpers.AnimatedExpandableListView
                     android:id="@+id/details_list"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.adapters;
+package com.mouse.world.adapters;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

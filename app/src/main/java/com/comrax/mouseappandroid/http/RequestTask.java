@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.http;
+package com.mouse.world.http;
 
 import android.content.Context;
 import android.content.SharedPreferences;

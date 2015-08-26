@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.activities_N_fragments;
+package com.mouse.world.activities_N_fragments;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -11,11 +11,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.comrax.mouseappandroid.R;
-import com.comrax.mouseappandroid.app.App;
-import com.comrax.mouseappandroid.http.RequestTask;
-import com.comrax.mouseappandroid.http.RequestTaskDelegate;
-import com.comrax.mouseappandroid.http.RequestTaskPOST;
+import com.mouse.world.R;
+import com.mouse.world.app.App;
+import com.mouse.world.http.RequestTask;
+import com.mouse.world.http.RequestTaskDelegate;
+import com.mouse.world.http.RequestTaskPOST;
 
 /**
  * Created by bez on 13/07/2015.

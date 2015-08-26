@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.database;
+package com.mouse.world.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.comrax.mouseappandroid.app.App;
+import com.mouse.world.app.App;
 
 import org.json.JSONException;
 import org.json.JSONObject;

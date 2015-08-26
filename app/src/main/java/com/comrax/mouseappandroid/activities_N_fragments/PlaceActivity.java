@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.activities_N_fragments;
+package com.mouse.world.activities_N_fragments;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -25,12 +25,12 @@ import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.comrax.mouseappandroid.R;
-import com.comrax.mouseappandroid.app.GlobalVars;
-import com.comrax.mouseappandroid.database.DBConstants;
-import com.comrax.mouseappandroid.http.RequestTask;
-import com.comrax.mouseappandroid.http.RequestTaskDelegate;
-import com.comrax.mouseappandroid.http.RequestTaskGet;
+import com.mouse.world.R;
+import com.mouse.world.app.GlobalVars;
+import com.mouse.world.database.DBConstants;
+import com.mouse.world.http.RequestTask;
+import com.mouse.world.http.RequestTaskDelegate;
+import com.mouse.world.http.RequestTaskGet;
 
 import org.json.JSONArray;
 import org.json.JSONException;

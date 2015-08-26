@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.activities_N_fragments;
+package com.mouse.world.activities_N_fragments;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,8 +10,8 @@ import android.webkit.WebViewClient;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.comrax.mouseappandroid.R;
-import com.comrax.mouseappandroid.database.DBConstants;
+import com.mouse.world.R;
+import com.mouse.world.database.DBConstants;
 
 /**
  * Created by bez on 15/07/2015.

@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.activities_N_fragments;
+package com.mouse.world.activities_N_fragments;
 
 import android.content.Context;
 import android.content.Intent;
@@ -18,13 +18,13 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.comrax.mouseappandroid.R;
-import com.comrax.mouseappandroid.adapters.MyPageAdapter;
-import com.comrax.mouseappandroid.app.GlobalVars;
-import com.comrax.mouseappandroid.app.HelperMethods;
-import com.comrax.mouseappandroid.database.DBConstants;
-import com.comrax.mouseappandroid.helpers.AnimatedExpandableListView;
-import com.comrax.mouseappandroid.model.MapMarkerModel;
+import com.mouse.world.R;
+import com.mouse.world.adapters.MyPageAdapter;
+import com.mouse.world.app.GlobalVars;
+import com.mouse.world.app.HelperMethods;
+import com.mouse.world.database.DBConstants;
+import com.mouse.world.helpers.AnimatedExpandableListView;
+import com.mouse.world.model.MapMarkerModel;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
@@ -187,7 +187,7 @@ public class Detail_City_Activity extends MyBaseDrawerActivity {
                 String currentIcon = GlobalVars.icon[mapItem.getBoneCategoryId()-1];
 
                 marker.setIcon((BitmapDescriptorFactory
-                        .fromResource(getResources().getIdentifier("com.comrax.mouseappandroid:drawable/" + "pin_" + currentIcon + "_blank", null, null))));
+                        .fromResource(getResources().getIdentifier("com.mouse.world:drawable/" + "pin_" + currentIcon + "_blank", null, null))));
 
                 markers.add(marker);
                 markerArray.add(mapItem);
@@ -207,12 +207,12 @@ public class Detail_City_Activity extends MyBaseDrawerActivity {
 
                 if (currentMarker != null) {
                     currentMarker.setIcon(BitmapDescriptorFactory
-                            .fromResource(getResources().getIdentifier("com.comrax.mouseappandroid:drawable/" + "pin_" + prevIcon + "_blank", null, null)));
+                            .fromResource(getResources().getIdentifier("com.mouse.world:drawable/" + "pin_" + prevIcon + "_blank", null, null)));
                 }
                 currentMarker = marker;
                 prevIcon = currentIcon;
                 marker.setIcon(BitmapDescriptorFactory
-                        .fromResource(getResources().getIdentifier("com.comrax.mouseappandroid:drawable/" + "pin_" + currentIcon, null, null)));
+                        .fromResource(getResources().getIdentifier("com.mouse.world:drawable/" + "pin_" + currentIcon, null, null)));
 
                 return false;
             }

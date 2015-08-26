@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.activities_N_fragments;
+package com.mouse.world.activities_N_fragments;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -11,9 +11,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.comrax.mouseappandroid.R;
-import com.comrax.mouseappandroid.app.App;
-import com.comrax.mouseappandroid.database.DBConstants;
+import com.mouse.world.R;
+import com.mouse.world.app.App;
+import com.mouse.world.database.DBConstants;
 
 import org.json.JSONException;
 import org.json.JSONObject;

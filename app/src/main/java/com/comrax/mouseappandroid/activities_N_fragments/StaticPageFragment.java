@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.activities_N_fragments;
+package com.mouse.world.activities_N_fragments;
 
 
 import android.os.Bundle;
@@ -11,7 +11,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.TextView;
 
-import com.comrax.mouseappandroid.R;
+import com.mouse.world.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;

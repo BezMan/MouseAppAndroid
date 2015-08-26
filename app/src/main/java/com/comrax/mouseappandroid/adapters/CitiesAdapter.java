@@ -1,4 +1,4 @@
-package com.comrax.mouseappandroid.adapters;
+package com.mouse.world.adapters;
 
 import android.app.Activity;
 import android.content.Context;
@@ -13,9 +13,9 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.comrax.mouseappandroid.R;
-import com.comrax.mouseappandroid.app.GlobalVars;
-import com.comrax.mouseappandroid.model.CitiesModel;
+import com.mouse.world.R;
+import com.mouse.world.app.GlobalVars;
+import com.mouse.world.model.CitiesModel;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -136,9 +136,9 @@ else if (tempValues.getId().equals("greenYesDownloaded")) {
 
 
             if (position < _existingCityCounter+2) {
-                holder.imageArrow.setImageResource(_resources.getIdentifier("com.comrax.mouseappandroid:drawable/" + "side_arrow", null, null));
+                holder.imageArrow.setImageResource(_resources.getIdentifier("com.mouse.world:drawable/" + "side_arrow", null, null));
             } else {
-                holder.imageArrow.setImageResource(_resources.getIdentifier("com.comrax.mouseappandroid:drawable/" + "down_arrow", null, null));
+                holder.imageArrow.setImageResource(_resources.getIdentifier("com.mouse.world:drawable/" + "down_arrow", null, null));
 
             }
             /******** Set Item Click Listner for LayoutInflater for each row ***********/
